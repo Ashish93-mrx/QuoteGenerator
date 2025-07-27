@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import './Randomquotes.css'
 import twitter_icon from '../Assest/twitter.png';
 import loading from '../Assest/load.png';
-
+// randomequote generator using react hooks
+// using useState and useEffect hooks
 const Randomquotes= ()=>{
     const [quotes,setQuotes] = useState([]);
     const [quote,setQuote] = useState({
